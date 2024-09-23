@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+main{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+form{
+    /* background-color: aqua; */
+    width: 30%;
+    padding: 20px,40px;
+    box-sizing: border-box;
+    border: 2px solid rgba(212, 200, 200, 0.253);
+}
+img,input,a,button{
+    display: block;
+
+}
+img{
+    width: 60%;
+    height: 150px;
+    margin: auto; 
+}
+input{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid rgba(128, 128, 128, 0.192);
+
+}
+button{
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.555);
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+}
+hr{
+    margin-top: 40px;
+
+}
+a{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+}
+h4{
+    position: absolute;
+    top: -100%;
+    left: 46%;
+    background-color: white;
+    padding: 0px,10px;
+}
+#or-cont{
+    position: relative;
+    height: 30px;
+}
+span{
+    color: red;
+}
+h3{
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+    position: absolute;
+    top: 15%;
+    right: 2%;
+}
+#show{
+    position: relative;
+}

@@ -1,0 +1,11 @@
+[type="text"]{
+    background-color: red;
+    color: green;
+}
+[type="pasword"]{
+    background-color: yellow;
+    color: white;
+}
+button[type="reset"]{
+    background-color: aqua;
+}
